@@ -1,0 +1,41 @@
+user:
+id              : int
+Name            : string
+Email           : string
+PasswordHash    : string
+Role            : string
+CreatedAt       : datetime
+UpdatedAt       : datetime
+
+administrator 
+id              : int
+Name            : string
+Email           : string
+PasswordHash    : string
+CreatedAt       : datetime
+UpdatedAt       : datetime
+
+
+Role:
+id              : int
+Name            : string
+
+mobil:
+id              : int
+Name            : string
+JenisMobil      : string
+HargaSewa       : int
+TahunProduksi   : datetime
+CreatedAt       : datetime
+UpdatedAt       : datetime
+
+
+transaction:
+id              : int
+MobilId         : int
+UserId          : int
+TanggalSewa     : datetime
+TanggalKembali  : datetime
+denda           : int 
+CreatedAt       : datetime
+UpdatedAt       : datetime
